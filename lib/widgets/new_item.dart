@@ -29,7 +29,8 @@ class _NewItemState extends State<NewItem> {
       setState(() {
         _isSending = true;
       });
-      final url = Uri.https('flutter-prep-e4104-default-rtdb.firebaseio.com',
+      // Replace 1st url with your Firebase realtime database url
+      final url = Uri.https('flutter-your-realtime-firebase-url.firebaseio.com',
           'shopping-list.json');
 
       // the package http being used to pass info using url and waiting for Future object 'response'

@@ -29,10 +29,9 @@ class _GroceryListState extends State<GroceryList> {
   // async makes sure to return a Future if the return type of a function isn't void
   void _loadItems() async {
     // To load items from the backend when app loads
+    // Replace 1st url with your Firebase realtime database url
     final url = Uri.https(
-        'flutter-prep-e4104-default-rtdb.firebaseio.com', 'shopping-list.json');
-    // final url = Uri.https(
-    //     'flutter-prep-e4104-default-rtdb.firebaseio', 'shopping-list.json');
+        'flutter-your-realtime-firebase-url.com', 'shopping-list.json');
     // To test error codes and exception handling change URL content or remove .com domain
     // try catch block could be used for exception handling if no network or wrong URL
 
@@ -130,8 +129,9 @@ class _GroceryListState extends State<GroceryList> {
     await Future.delayed(const Duration(seconds: 3));
     // Targeting specific item for deletion
     if (toBeDeleted) {
+      // Replace 1st url with your Firebase realtime database url
       final url = Uri.https(
-        'flutter-prep-e4104-default-rtdb.firebaseio.com',
+        'flutter-your-realtime-firebase-url.firebaseio.com',
         'shopping-list/${item.id}.json',
       );
       // final url = Uri.https(
