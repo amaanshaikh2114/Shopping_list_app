@@ -46,12 +46,28 @@ A Flutter project that provides an interface to add/delete shopping items of dif
     To delete an expense swipe the item dismissible tile left/right.
 
 ## Screenshots
-<p align="center">
-  <img src="screenshots/empty_list.png" alt="Home page" width="300"/>
-  <img src="screenshots/add_item.png" alt="Add new item sheet" width="300"/>
-  <img src="screenshots/home_page.png" alt="Adding expenses" width="300"/>
-  <img src="screenshots/deleting_item.png" alt="Deleting expenses" width="300"/>
+<p align="center" style="margin: 20px;">
+  <figure>
+    <figcaption align="center">Empty List View</figcaption>
+    <img src="screenshots/empty_list.png" alt="Home page" width="300" style="padding-top: 10px;"/>
+  </figure>
+  
+  <figure>
+    <figcaption align="center">Add New Item</figcaption>
+    <img src="screenshots/add_item.png" alt="Add new item sheet" width="300" style="padding-top: 10px;"/>
+  </figure>
+
+  <figure>
+    <figcaption align="center">List with Items</figcaption>
+    <img src="screenshots/home_page.png" alt="Adding expenses" width="300" style="padding-top: 10px;"/>
+  </figure>
+
+  <figure>
+    <figcaption align="center">Deleting an Item</figcaption>
+    <img src="screenshots/deleting_item.png" alt="Deleting expenses" width="300" style="padding-top: 10px;"/>
+  </figure>
 </p>
+
 
 ## Credits
 'Flutter & Dart - The Complete Guide [2024 Edition]' Course by Maximilian Schwarzmüller on Udemy.
